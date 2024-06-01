@@ -10,7 +10,7 @@ public class ArrayRotation {
 		System.out.println(Arrays.toString(arr));
 		//rotate by 1
 
-		    for(int j=2;j<arr.length;j++){
+		    for(int j=3;j<arr.length;j++){
 		    int temp = arr[0];
 		    for (int i = 0; i < arr.length-1; i++){
 		        arr[i]=arr[i+1];
