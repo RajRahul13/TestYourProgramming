@@ -48,6 +48,7 @@ public class collectionDemo {
 		while (itr.hasNext()) {
 			System.out.println(itr.next());
 		}
-
+		
+		//newe
 	}
 }
