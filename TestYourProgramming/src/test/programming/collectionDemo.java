@@ -49,6 +49,6 @@ public class collectionDemo {
 			System.out.println(itr.next());
 		}
 		
-		//newe
+		//newest
 	}
 }
