@@ -9,7 +9,7 @@ public class RevWordsFromGivenString {
 		
 		String [] stringArr = str.split("\\s+"); //splitting on basis of spaces
 		
-		for(int i=0;i<stringArr.length;i++)
+		for(int i=0;i<stringArr.length ;i++)
 		{
 			for(int j=stringArr[i].length()-1;j>=0;j--) //stringArr[i] will give word at ith posn of string
 			{
