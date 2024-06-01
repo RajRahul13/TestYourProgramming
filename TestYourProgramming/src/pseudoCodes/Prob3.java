@@ -1,0 +1,30 @@
+package pseudoCodes;
+
+public class Prob3 {
+
+	public static void main(String[] args) {
+		Integer num1 = 100;
+		Integer num2 = 100;
+		Integer num3 = 500;
+		Integer num4 = 500;
+		
+		if(num1 == num2) {
+			System.out.println("num1==num2");
+		}else {
+			System.out.println("num1 != num2");
+		}
+		if(num3 == num4) {
+			System.out.println("num3==num4");
+		}else {
+			System.out.println("num3 != num4");
+		}
+
+		
+		//We always thought that whenever two object references are compared using "==" , it always evaluates to
+		//"false".but here Integer caching changes the results. Integer class has a caching range of -128 to 127
+		//Whenever a number is between this range autoboxing is used, it assigns the same reference Thats why from 
+		//value 100, both num1 and num2 will have the same reference but for the value 500(not in the range -128 to 127)
+		//num3 and num4 will have different reference.
+	}
+
+}

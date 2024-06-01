@@ -19,6 +19,7 @@ public class countEvenandOddinNo {
 		}
 		System.out.println(counteven);
 		System.out.println(countodd);
+		System.out.println(num);
 		System.out.println("test");
 	} 
 
