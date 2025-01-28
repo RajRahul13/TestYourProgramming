@@ -4,7 +4,7 @@ import java.util.*;
 public class duplicateCharacters {
 
 	public static void main(String[] args) {
-		String given = "AaaBbbbbbbccccc";
+		String given = "AaaBbbbbbbcccccd";
 		
 		char [] givenCharArr = given.toLowerCase().toCharArray();
 		Map <Character,Integer> map = new HashMap<Character,Integer>();
