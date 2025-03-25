@@ -27,7 +27,7 @@ public class multipleValuesFromanotherList {
 		
 	//	System.out.println(multimap);
 		
-	//	System.out.println(returnCity("INDIA"));
+		System.out.println(returnCity("INDIA"));
 		
 	
 	}
